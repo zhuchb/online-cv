@@ -19,7 +19,13 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+      <div class="upper-row">
+        <div class="company">
+          <a href="{{ experience.company-url }}" target="_blank">{{ experience.company }}</a>
+        <!--{{ experience.company }}-->
+        </div>
+        <div class="location"><i class="fas fa-map-marker-alt"></i>&nbsp;{{ experience.location }}</div>
+      </div>
 
     </div><!--//meta-->
 

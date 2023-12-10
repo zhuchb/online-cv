@@ -4,262 +4,266 @@
 
 sidebar:
     position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Chuanbo Zhu 朱传博
+    #tagline: Full Stack Developer
+    avatar: photo_square.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    timezone: America/Cancun Timezone
-    citizenship:
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    email: chbozhu@gmail.com
+    #weixin: zhu666zhu2
+    #phone: 012 345 6789
+    #timezone: Tokyo, Japan
+    location: Tokyo, Japan
+    birthday: 1997-6
+    #citizenship: Guangzhou, China
+    #home-address: Guangzhou, China
+
+    #website: blog.webjeda.com #do not add http://
+    #linkedin: alandoe
+    #xing: alandoe
+    #github: sharu725
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Chinese
           level: Native
 
-        - idiom: French
-          level: Professional
+        - idiom: English
+          level: Professional TOEFL 107, TOEIC 945
 
-        - idiom: Spanish
-          level: Professional
+        - idiom: Japanese
+          level: Professional JLPT N1
+        
+        - idiom: Russian
+          level: Intermediate
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
+    #interests:
+    #  title: Interests
+    #  info:
+    #    - item: Climbing
+    #      link:
+#
+    #    - item: Snowboarding
+    #      link:
+#
+    #    - item: Cooking
+    #      link:
 
 career-profile:
-    title: Career Profile
+    title: Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      - I specialized in Speech Technologies and Computer-Aided Language Learning when I was a master student. 
+      - I have been working as an AR Glasses Application Developer since graduation. 
+      - Currently, I am interested in integrating XR, AI, and Language Learning.
+
+
+experiences:
+    title: Work experiences
+    info:
+      - role: Project Manager
+        time: Apr. 2022 - Present
+        company: KDDI Corporation
+        company-url: https://www.kddi.com/
+        location: Tokyo, Japan
+        details: |
+          Development of applications for smartphone-tethered AR glasses.  
+          <!-- [News report in Japanese with my photo on it.](https://mainichi.jp/articles/20221120/ddl/k28/040/129000c)-->
+
+      - role: Project Academic Support Specialist
+        time: Sep. 2021 - Apr. 2022
+        company: the University of Tokyo
+        company-url: https://www.t.u-tokyo.ac.jp/soe
+        location: Tokyo, Japan
+        details: |
+          Fine-tuning an LSTM model and developing a Seq2seq model to improve the automatic assessment of Second Language (L2) learners' speech intelligibility.
+
+          
+      - role: Research Intern
+        time: Jan. 2020 - Feb. 2020
+        company: NTT R&D Center
+        company-url: https://www.rd.ntt/
+        location: Yokosuka, Japan
+        details: |
+          Implementation of Japanese text classification using both rule-based and machine learning approaches.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: MEng in Electrical Engineering and Information Systems
+        university: the University of Tokyo
+        university-url: https://www.u-tokyo.ac.jp/ja/index.html
+        location: Tokyo, Japan
+        time: Sep. 2019 - Sep. 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+            - **Supervisor**: [Prof. Nobuaki Minematsu](https://www.u-tokyo.ac.jp/focus/en/people/people000413.html)
+            - **Research Interest and Focus**: Speech technologies in Computer-aided language learning (CALL)
+            - **Master thesis**: Sequential annotation and prediction of L2 speech instantaneous intelligibility based on shadowing techniques
+            - **Summary**:
+                - **Background**: Speech intelligibility assessment is essential for Second Language (L2) learners. However, intelligibility prediction has not been well-developed due to difficulties in measuring while-listening behaviors of listeners.
+                - **Proposal**: This study proposes an instantaneous annotation of L2 speech intelligibility with multiple levels of granularity, 
+                including frame, phoneme, syllable, and word. 
+                Subsequently, we constructed an intelligibility prediction model using the collected annotations to enable automatic assessment of instantaneous intelligibility.
+            - **Publications**: 4 international and 5 domestic Japanese conferences papers (See section below).
+            - **Award**: [Outstanding Presentation Award of the Annual Meeting of Phonetic Society of Japan](https://www.t.u-tokyo.ac.jp/en/topics/foee/topics/setnws_202104121405215963284986.html)
+      - degree: BEng in Software Engineering
+        university: Sun Yat-sen University
+        university-url: https://www.sysu.edu.cn/
+        location: Guangzhou, China
+        time: Sep. 2015 - Jun. 2019
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-experiences:
-    title: Experiences
-    info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          GPA 3.7/5.0
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: AWS Certificated Solutions Architect - Associate
+          start: 2023
+          end: 2026
+          organization: AWS
+          #credentialid: 111-222
+          #credentialurl: https://aws.amazon.com/certification/certified-solutions-architect-associate/?nc1=h_ls
+          #credentialname: Google
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            [This certificate showcases knowledge and skills in AWS technology, across a wide range of AWS services.](https://aws.amazon.com/certification/certified-solutions-architect-associate/?nc1=h_ls)
+        
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+#projects:
+#    title: Projects
+#    intro: >
+#      You can list your side projects in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    assignments:
+#      - title: Velocity
+#        link: "#hook"
+#        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#      - title: DevStudio
+#        link: "#"
+#        tagline: "A responsive website template designed to help web developers/designers market their services."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#oss:
+#    title: OSS Contributions
+#    intro: >
+#      You can list your open source software contributions in this
+#      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#    contributions:
+#      - title: Tempo
+#        link: "#"
+#        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#      - title: Atom
+#        link: "#"
+#        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+#      - title: Delta
+#        link: "#"
+#        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    #intro: |
+    #  International Conferences
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - section: International Conferences
+      - title: Multi-Granularity Annotation of Instantaneous Intelligibility of Learners' Utterances Based on Shadowing Techniques
+        link: "https://ieeexplore.ieee.org/abstract/document/9688270"
+        authors: "<u><strong>C. Zhu</strong></u>, R. Hakoda, D. Saito, N. Minematsu and N. Nakanishi"
+        conference: Proc. IEEE Automatic Speech Recognition and Understanding Workshop (ASRU), pp. 1071-1078, Cartagena, Colombia, Dec. 2021.
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Automatic Prediction of Intelligibility of Words and Phonemes Produced Orally by Japanese Learners of English
+        link: "https://ieeexplore.ieee.org/abstract/document/10023307"
+        authors: <u><strong>C. Zhu</strong></u>, T. Kunihara, D. Saito, N. Minematsu and N. Nakanishi
+        conference: Proc. IEEE Spoken Language Technology Workshop (SLT) , pp. 1029-1036, Doha, Qatar, Jan. 2022.
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Gradual improvements observed in learners' perception and production of L2 sounds through continuing shadowing practices on a daily basis
+        link: "https://www.isca-speech.org/archive/interspeech_2022/kunihara22_interspeech.html"
+        authors: T. Kunihara, <u><strong>C. Zhu</strong></u>, N. Minematsu and N. Nakanishi
+        conference: Proc. Interspeech, pp. 1303-1307, Incheon, Korea, Sep. 2022.
+      
+      - title: Objective and Semi-automatic Measurement of Smoothness of Instantaneous Understanding of L2 English Speech
+        authors: <u><strong>C. Zhu</strong></u>, N. Minematsu and N. Nakanishi
+        conference: Pronunciation in Second Language Learning and Teaching (PSLLT), Virtual, Jun. 2021.
+      
+
+      
+      - section: Japanese Domestic Conferences
+
+      - title: Sequential prediction of instantaneous intelligibility in Japanese-accented English utterances
+        authors: <u><strong>C. Zhu</strong></u>, T. Kunihara, Y.Shozui, D. Saito, N. Minematsu and N. Nakanishi
+        conference: Proc. Technical Committees on Speech of Acoustical Society of Japan (ASJ-SP), 2022.
+
+      - title: Automatic Prediction of Instantaneous Intelligibility of L2 Speech in Sequence
+        authors: <u><strong>C. Zhu</strong></u>, T. Kunihara, D. Saito, N. Minematsu and N. Nakanishi
+        conference: Proc. Autumn meeting of Acoustical Society of Japan (ASJ), 2021.
+
+      - title: Multi-granularity analysis of online intelligibility of L2 speech based on reverse shadowing
+        authors: <u><strong>C. Zhu</strong></u>, R. Hakoda, D. Saito, N. Minematsu and N. Nakanishi
+        conference: Proc. Spring meeting of Acoustical Society of Japan (ASJ), 2021.
+
+      - title: Analyses on Instantaneous Perception of Japanese English by Listeners with Various Language Profiles
+        authors: <u><strong>C. Zhu</strong></u>, Z. Lin, N. Minematsu and N. Nakanishi
+        conference: Proc. Annual meeting of Phonetic Society of Japan (PSJ), 2021.
+      
+      - title: Shadowability-based Analysis of Behaviors of Listeners with Diverse Language Backgrounds when Listening to Japanese English Utterances
+        authors: <u><strong>C. Zhu</strong></u>, R. Takashima, S. Ando, Z. Lin, D. Saito, N. Minematsu and N. Nakanishi
+        conference: Proc. Autumn meeting of Acoustical Society of Japan (ASJ), 2020.
+
+      
+
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 90%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Unity
+        level: 90%
 
-      - name: Angular
-        level: 98%
+      - name: Figma & Adobe XD
+        level: 70%
 
-      - name: HTML5 & CSS
-        level: 95%
+      - name: Photoshop
+        level: 70%
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: AWS
         level: 60%
+
+      - name: React
+        level: 50%
+
+      - name: C & C++
+        level: 50%
+      
+      - name: Blender
+        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

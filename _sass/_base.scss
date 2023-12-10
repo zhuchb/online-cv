@@ -189,6 +189,8 @@ p {
     overflow: hidden;
     margin-bottom: 2px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   .job-title,
   .degree,
@@ -201,6 +203,7 @@ p {
     flex: 75%;
   }
   .time,
+  .location,
   .cert-url {
     position: absolute;
     right: 0;

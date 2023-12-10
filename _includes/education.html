@@ -36,9 +36,13 @@
           <h3 class="degree">{{ graduation.degree }}</h3>
           <div class="time">{{ graduation.time }}</div>
         </div><!--//upper-row-->
-
-        <div class="university">{{ graduation.university }}</div>
-      </div><!--//meta-->
+        
+        <div class="upper-row">
+          <div class="university">
+            <a href="{{ graduation.university-url }}" target="_blank">{{ graduation.university }}</a>
+          </div>
+          <div class="location"><i class="fas fa-map-marker-alt"></i>&nbsp;{{ graduation.location }}</div>
+        </div><!--//meta-->
 
       {% if graduation.details %}
       <div class="details">
