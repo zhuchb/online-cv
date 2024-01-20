@@ -15,14 +15,14 @@ sidebar:
     # Sidebar links
     email: chbozhu@gmail.com
     #weixin: zhu666zhu2
-    #phone: 012 345 6789
+    #phone: +86-13660400941
     #timezone: Tokyo, Japan
     location: Tokyo, Japan
     birthday: 1997-6
     #citizenship: Guangzhou, China
-    #home-address: Guangzhou, China
+    #home-address: Guangzhou, China#
 
-    #website: blog.webjeda.com #do not add http://
+    website: zhuchb.github.io/online-cv/ #do not add http://
     #linkedin: alandoe
     #xing: alandoe
     #github: sharu725
@@ -42,7 +42,7 @@ sidebar:
           level: Native
 
         - idiom: English
-          level: Professional TOEFL 107, TOEIC 945
+          level: Professional TOEFL 107 expired in 2019 but will be renewed in Feb. 2024, TOEIC 945
 
         - idiom: Japanese
           level: Professional JLPT N1
@@ -65,7 +65,7 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      - I specialized in Speech Technologies and Computer-Aided Language Learning when I was a master student. 
+      - I specialized in Speech Technologies for Language Learning when I was a master student. 
       - I have been working as an AR Glasses Application Developer since graduation. 
       - Currently, I am interested in integrating XR, AI, and Language Learning.
 
@@ -76,16 +76,18 @@ experiences:
       - role: Project Manager
         time: Apr. 2022 - Present
         company: KDDI Corporation
-        company-url: https://www.kddi.com/
+        company-url: https://www.kddi.com/english/
         location: Tokyo, Japan
         details: |
-          Development of applications for smartphone-tethered AR glasses.  
-          <!-- [News report in Japanese with my photo on it.](https://mainichi.jp/articles/20221120/ddl/k28/040/129000c)-->
+          - Development of an visual guide android application for smartphone-tethered AR glasses. 
+            - [Product Information Website (Japanese)](https://au5g.jp/smartglasses/visualguide)
+            - [News report with my photo on it (Japanese)](https://mainichi.jp/articles/20221120/ddl/k28/040/129000c)
+          - Integration of emerging technologies into AR glasses applications, including generative AI for text and 3D objects.
 
       - role: Project Academic Support Specialist
         time: Sep. 2021 - Apr. 2022
-        company: the University of Tokyo
-        company-url: https://www.t.u-tokyo.ac.jp/soe
+        company: The University of Tokyo
+        company-url: https://www.t.u-tokyo.ac.jp/en/soe
         location: Tokyo, Japan
         details: |
           Fine-tuning an LSTM model and developing a Seq2seq model to improve the automatic assessment of Second Language (L2) learners' speech intelligibility.
@@ -93,8 +95,8 @@ experiences:
           
       - role: Research Intern
         time: Jan. 2020 - Feb. 2020
-        company: NTT R&D Center
-        company-url: https://www.rd.ntt/
+        company: NTT Human Informatics Laboratories
+        company-url: https://www.rd.ntt/e/hil/
         location: Yokosuka, Japan
         details: |
           Implementation of Japanese text classification using both rule-based and machine learning approaches.
@@ -103,8 +105,8 @@ education:
     title: Education
     info:
       - degree: MEng in Electrical Engineering and Information Systems
-        university: the University of Tokyo
-        university-url: https://www.u-tokyo.ac.jp/ja/index.html
+        university: The University of Tokyo
+        university-url: https://www.t.u-tokyo.ac.jp/en/soe
         location: Tokyo, Japan
         time: Sep. 2019 - Sep. 2021
         details: |
@@ -241,28 +243,28 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python
+      - name: "Python"
         level: 90%
 
-      - name: Unity
+      - name: "Unity"
         level: 90%
 
-      - name: Figma & Adobe XD
+      - name: "Figma & Adobe XD"
         level: 70%
 
-      - name: Photoshop
-        level: 70%
+#      - name: Photoshop
+#        level: 70%
 
-      - name: AWS
+      - name: "AWS"
         level: 60%
 
-      - name: React
+      - name: "React"
         level: 50%
 
-      - name: C & C++
+      - name: "C & C++"
         level: 50%
       
-      - name: Blender
+      - name: "Blender"
         level: 30%
 
 footer: >
