@@ -23,9 +23,11 @@ sidebar:
     #home-address: Guangzhou, China#
 
     website: zhuchb.github.io/online-cv/ #do not add http://
+    googleScholar: scholar.google.com/citations?user=XrDq4vMAAAAJ&hl=en&oi=ao
+    github: zhuchb
     #linkedin: alandoe
     #xing: alandoe
-    #github: sharu725
+    
     #telegram: # add your nickname without '@' sign
     #gitlab:
     #bitbucket:
@@ -203,10 +205,15 @@ publications:
         authors: <u><strong>C. Zhu</strong></u>, T. Kunihara, D. Saito, N. Minematsu and N. Nakanishi
         conference: Proc. IEEE Spoken Language Technology Workshop (SLT) , pp. 1029-1036, Doha, Qatar, Jan. 2022.
 
-      - title: Gradual improvements observed in learners' perception and production of L2 sounds through continuing shadowing practices on a daily basis
+      - title: Gradual Improvements Observed in Learners' Perception and Production of L2 Sounds Through Continuing Shadowing Practices on A Daily Basis
         link: "https://www.isca-speech.org/archive/interspeech_2022/kunihara22_interspeech.html"
         authors: T. Kunihara, <u><strong>C. Zhu</strong></u>, N. Minematsu and N. Nakanishi
         conference: Proc. Interspeech, pp. 1303-1307, Incheon, Korea, Sep. 2022.
+
+      - title: Detection of Learners' Listening Breakdown with Oral Dictation and Its Use to Model Listening Skill Improvement Exclusively Through Shadowing
+        link: "https://www.isca-archive.org/interspeech_2022/kunihara22b_interspeech.pdf"
+        authors: T. Kunihara, <u><strong>C. Zhu</strong></u>, D. Saito, N. Minematsu and N. Nakanishi
+        conference: Proc. Interspeech, pp. 4461-4465, Incheon, Korea, Sep. 2022.
       
       - title: Objective and Semi-automatic Measurement of Smoothness of Instantaneous Understanding of L2 English Speech
         authors: <u><strong>C. Zhu</strong></u>, N. Minematsu and N. Nakanishi
