@@ -67,9 +67,9 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
+      - Currently, I am a PhD student in Hong Kong University of Science and Technology. My research interest is about Speech Attribute Editing.
       - I specialized in Speech Technologies for Language Learning when I was a master student. 
-      - I have been working as an AR Glasses Application Developer since graduation. 
-      - Currently, I am interested in Audio Generation and Multimodal Machine Learning.
+      - I have been working as an AR Glasses Application Developer for 2 years after getting my master degree.
 
 
 experiences:
@@ -106,6 +106,15 @@ experiences:
 education:
     title: Education
     info:
+      - degree: Current PhD student
+        university: The Hong Kong University of Science and Technology
+        university-url: https://hkust.edu.hk/zh-hant
+        location: HKSAR, China
+        time: Sep.2024 -
+        details: |
+        - **Supervisor**: [Prof. Wei Xue](http://wei-xue.com/)
+        - **Research Interest and Focus**: Speech Attribute Editing, which aims to modify the target speech attributes (content, emotion, speaker and etc.) while keeping others of the given speech unchanged.
+
       - degree: MEng in Electrical Engineering and Information Systems
         university: The University of Tokyo
         university-url: https://www.t.u-tokyo.ac.jp/en/soe
@@ -194,7 +203,11 @@ publications:
     #intro: |
     #  International Conferences
     papers:
-      - section: International Conferences
+      - section: International Conferences (PhD)
+      - title: "UniSAE: Speech Attribute Editing of Phoneme, Speaker, and Emotion (submitted)"
+        link: "https://zhuchb.github.io/UniSAE_demo/"
+
+      - section: International Conferences (Master)
       - title: Multi-Granularity Annotation of Instantaneous Intelligibility of Learners' Utterances Based on Shadowing Techniques
         link: "https://ieeexplore.ieee.org/abstract/document/9688270"
         authors: "<u><strong>C. Zhu</strong></u>, R. Hakoda, D. Saito, N. Minematsu and N. Nakanishi"
@@ -221,7 +234,7 @@ publications:
       
 
       
-      - section: Japanese Domestic Conferences
+      - section: Japanese Domestic Conferences (Master)
 
       - title: Sequential prediction of instantaneous intelligibility in Japanese-accented English utterances
         authors: <u><strong>C. Zhu</strong></u>, T. Kunihara, Y.Shozui, D. Saito, N. Minematsu and N. Nakanishi
