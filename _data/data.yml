@@ -203,11 +203,11 @@ publications:
     #intro: |
     #  International Conferences
     papers:
-      - section: International Conferences (PhD)
+      - section: Journals and Conferences (PhD)
       - title: "UniSAE: Speech Attribute Editing of Phoneme, Speaker, and Emotion (submitted)"
         link: "https://zhuchb.github.io/UniSAE_demo/"
 
-      - section: International Conferences (Master)
+      - section: International Conferences (Master's)
       - title: Multi-Granularity Annotation of Instantaneous Intelligibility of Learners' Utterances Based on Shadowing Techniques
         link: "https://ieeexplore.ieee.org/abstract/document/9688270"
         authors: "<u><strong>C. Zhu</strong></u>, R. Hakoda, D. Saito, N. Minematsu and N. Nakanishi"
@@ -234,7 +234,7 @@ publications:
       
 
       
-      - section: Japanese Domestic Conferences (Master)
+      - section: Japanese Domestic Conferences (Master's)
 
       - title: Sequential prediction of instantaneous intelligibility in Japanese-accented English utterances
         authors: <u><strong>C. Zhu</strong></u>, T. Kunihara, Y.Shozui, D. Saito, N. Minematsu and N. Nakanishi
