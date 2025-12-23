@@ -76,15 +76,17 @@ experiences:
     title: Work experiences
     info:
       - role: Project Manager
-        time: Apr. 2022 - Present
+        time: Apr. 2022 - May. 2024
         company: KDDI Corporation
         company-url: https://www.kddi.com/english/
         location: Tokyo, Japan
         details: |
-          - Development of an visual guide android application for smartphone-tethered AR glasses. 
+          - Project management of AR glasses manufacture used at the Expo 2025 Osaka, Japan.
+            - [Product Introduction (Japanese)](https://tech-note.kddi.com/n/n317658c7873e)
+          - Project management of an visual guide android application for smartphone-tethered AR glasses. 
             - [Product Information Website (Japanese)](https://au5g.jp/smartglasses/visualguide)
             - [News report with my photo on it (Japanese)](https://mainichi.jp/articles/20221120/ddl/k28/040/129000c)
-          - Integration of emerging technologies into AR glasses applications, including generative AI for text and 3D objects.
+          - Research and integration of emerging technologies into AR glasses applications, e.g. AI speech asisstant.
 
       - role: Project Academic Support Specialist
         time: Sep. 2021 - Apr. 2022
@@ -110,7 +112,7 @@ education:
         university: The Hong Kong University of Science and Technology
         university-url: https://hkust.edu.hk/zh-hant
         location: HKSAR, China
-        time: Sep.2024 - now
+        time: Sep. 2024 - now
         details: |
           - **Supervisor**: [Prof. Wei Xue](http://wei-xue.com/)
           - **Research Interest and Focus**: Speech Attribute Editing, which aims to modify the target speech attributes (content, emotion, speaker and etc.) while keeping others of the given speech unchanged.
