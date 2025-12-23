@@ -110,10 +110,10 @@ education:
         university: The Hong Kong University of Science and Technology
         university-url: https://hkust.edu.hk/zh-hant
         location: HKSAR, China
-        time: Sep.2024 -
+        time: Sep.2024 - now
         details: |
-        - **Supervisor**: [Prof. Wei Xue](http://wei-xue.com/)
-        - **Research Interest and Focus**: Speech Attribute Editing, which aims to modify the target speech attributes (content, emotion, speaker and etc.) while keeping others of the given speech unchanged.
+          - **Supervisor**: [Prof. Wei Xue](http://wei-xue.com/)
+          - **Research Interest and Focus**: Speech Attribute Editing, which aims to modify the target speech attributes (content, emotion, speaker and etc.) while keeping others of the given speech unchanged.
 
       - degree: MEng in Electrical Engineering and Information Systems
         university: The University of Tokyo
