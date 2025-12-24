@@ -261,33 +261,33 @@ publications:
       
 
 
-skills:
-    title: Skills &amp; Proficiency
+#skills:
+#    title: Skills &amp; Proficiency
 
-    toolset:
-      - name: "Python"
-        level: 90%
+#    toolset:
+#      - name: "Python"
+#        level: 90%
 
-      - name: "Unity"
-        level: 90%
+#      - name: "Unity"
+#        level: 90%
 
-      - name: "Figma & Adobe XD"
-        level: 70%
+#      - name: "Figma & Adobe XD"
+#        level: 70%
 
 #      - name: Photoshop
 #        level: 70%
 
-      - name: "AWS"
-        level: 60%
+#      - name: "AWS"
+#        level: 60%
 
-      - name: "React"
-        level: 50%
+#      - name: "React"
+#        level: 50%
 
-      - name: "C & C++"
-        level: 50%
+#      - name: "C & C++"
+#        level: 50%
       
-      - name: "Blender"
-        level: 30%
+#      - name: "Blender"
+#        level: 30%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
