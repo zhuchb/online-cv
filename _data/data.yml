@@ -67,9 +67,9 @@ sidebar:
 career-profile:
     title: Profile
     summary: |
-      - Currently, I am a PhD student in Hong Kong University of Science and Technology. My research interest is about Speech Attribute Editing.
-      - I specialized in Speech Technologies for Language Learning when I was a master student. 
-      - I have been working as an AR Glasses Application Developer for 2 years after getting my master degree.
+      - I am currently a PhD student at the Hong Kong University of Science and Technology (HKUST).
+      - My research focuses on fine-grained speech editing and speech understanding.
+      - I began my research in speech processing during my master's studies at the University of Tokyo.
 
 
 experiences:
@@ -88,13 +88,13 @@ experiences:
             - [News report with my photo on it (Japanese)](https://mainichi.jp/articles/20221120/ddl/k28/040/129000c)
           - Research and integration of emerging technologies into AR glasses applications, e.g. AI speech asisstant.
 
-      - role: Project Academic Support Specialist
-        time: Sep. 2021 - Apr. 2022
-        company: The University of Tokyo
-        company-url: https://www.t.u-tokyo.ac.jp/en/soe
-        location: Tokyo, Japan
-        details: |
-          Fine-tuning an LSTM model and developing a Seq2seq model to improve the automatic assessment of Second Language (L2) learners' speech intelligibility.
+     # - role: Project Academic Support Specialist
+     #   time: Sep. 2021 - Apr. 2022
+     #   company: The University of Tokyo
+     #   company-url: https://www.t.u-tokyo.ac.jp/en/soe
+     #   location: Tokyo, Japan
+     #   details: |
+     #     Fine-tuning an LSTM model and developing a Seq2seq model to improve the automatic assessment of Second Language (L2) learners' speech intelligibility.
 
           
       - role: Research Intern
@@ -115,7 +115,7 @@ education:
         time: Sep. 2024 - now
         details: |
           - **Supervisor**: [Prof. Wei Xue](http://wei-xue.com/)
-          - **Research Interest and Focus**: Speech Attribute Editing, which aims to modify the target speech attributes (content, emotion, speaker and etc.) while keeping others of the given speech unchanged.
+          - **Research Interest and Focus**: Fine-grained speech editing and understanding. See my publication below.
 
       - degree: MEng in Electrical Engineering and Information Systems
         university: The University of Tokyo
@@ -124,22 +124,23 @@ education:
         time: Sep. 2019 - Sep. 2021
         details: |
             - **Supervisor**: [Prof. Nobuaki Minematsu](https://www.u-tokyo.ac.jp/focus/en/people/people000413.html)
-            - **Research Interest and Focus**: Speech technologies in Computer-aided language learning (CALL)
-            - **Master thesis**: Sequential annotation and prediction of L2 speech instantaneous intelligibility based on shadowing techniques
-            - **Summary**:
-                - **Background**: Speech intelligibility assessment is essential for Second Language (L2) learners. However, intelligibility prediction has not been well-developed due to difficulties in measuring while-listening behaviors of listeners.
-                - **Proposal**: This study proposes an instantaneous annotation of L2 speech intelligibility with multiple levels of granularity, 
-                including frame, phoneme, syllable, and word. 
-                Subsequently, we constructed an intelligibility prediction model using the collected annotations to enable automatic assessment of instantaneous intelligibility.
-            - **Publications**: 4 international and 5 domestic Japanese conferences papers (See section below).
-            - **Award**: [Outstanding Presentation Award of the Annual Meeting of Phonetic Society of Japan](https://www.t.u-tokyo.ac.jp/en/topics/foee/topics/setnws_202104121405215963284986.html)
+            - **Research Interest and Focus**: L2 speech intelligibility assessment and prediction.
+            - **Master Thesis**: Sequential annotation and prediction of L2 speech instantaneous intelligibility based on shadowing techniques.
+#            - **Summary**:
+#                - **Background**: Speech intelligibility assessment is essential for Second Language (L2) learners. However, intelligibility prediction has not been well-developed due to difficulties in measuring while-listening behaviors of listeners.
+#                - **Proposal**: This study proposes an instantaneous annotation of L2 speech intelligibility with multiple levels of granularity, 
+#                including frame, phoneme, syllable, and word. 
+#                Subsequently, we constructed an intelligibility prediction model using the collected annotations to enable automatic assessment of instantaneous intelligibility.
+#            - **Publications**: 4 international and 5 domestic Japanese conferences papers (See section below).
+#            - **Award**: [Outstanding Presentation Award of the Annual Meeting of Phonetic Society of Japan](https://www.t.u-tokyo.ac.jp/en/topics/foee/topics/setnws_202104121405215963284986.html)
       - degree: BEng in Software Engineering
         university: Sun Yat-sen University
         university-url: https://www.sysu.edu.cn/
         location: Guangzhou, China
         time: Sep. 2015 - Jun. 2019
         details: |
-          GPA 3.7/5.0
+          - **Bachelor Thesis**: Sentiment Analysis and Classification of Weibo Texts.
+          - **GPA**: 3.7/5.0
 
 certifications:
       title: Certifications
@@ -205,8 +206,19 @@ publications:
     #intro: |
     #  International Conferences
     papers:
-      - section: Journals and Conferences (PhD)
-      - title: "TBA"
+      - section: International Conferences (PhD)
+      - title: "AudiPsy: Evidence-Grounded Multimodal Reasoning over Spoken Counseling Conversations for Depression Assessment"
+        link: https://arxiv.org/pdf/2610.27567
+        authors: "<u><strong>Chuanbo Zhu</strong></u>, Run Luo, Weibo Zhao, Yue Li, Kun Qian, Qiang Qu, Yike Guo, Minghuan Tan, Wei Xue"
+        conference: Submitted to ARR Oct 2026
+      
+      - title: "UniSAE: Unified Speech Attribute Editing on Speaker, Emotion and Low-Level Content via Discrete Phonetic Posteriorgram Modelling"
+        link: https://arxiv.org/pdf/2606.31128
+        authors: "<u><strong>Chuanbo Zhu</strong></u>, Wuyou Zhou, Rongxiu Zhong, Shilei Zhang, Kun Qian, Yike Guo, Wei Xue"
+      
+      - title: "Recurrent Persona Modeling over Cross-Modal Optimal Transport for User-Level Depression Detection"
+        authors: "Yue Li, Weibo Zhao, <u><strong>Chuanbo Zhu</strong></u>, Minghuan Tan, Qiang Qu, Min Yang, Yiwen Jiang"
+        conference: Submitted to ICASSP 2027
 
       - section: International Conferences (Master's)
       - title: Multi-Granularity Annotation of Instantaneous Intelligibility of Learners' Utterances Based on Shadowing Techniques
